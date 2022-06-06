@@ -1,0 +1,23 @@
+body #container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 17px;
+    font-family:monospace;
+    font-weight:lighter;
+    line-height: 1.8;
+    }
+#container div{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+img {
+    border-radius: 50%;
+}
+ul li{
+    list-style: none;
+}
+h1, h2{
+    color:#128812;
+}
