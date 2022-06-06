@@ -21,3 +21,7 @@ ul li{
 h1, h2{
     color:#128812;
 }
+#header a {
+    margin-left:3px;
+    margin-right:3px
+}
