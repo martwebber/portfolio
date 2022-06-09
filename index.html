@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin Mwangi</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
 </head>
+
 <body>
-    <div id="container">
-        <div id="header">
-            <img src="./img/mart.jpg" alt="profile photograph" title="" width="100px"/>
-            <h1>Martin Mwangi</h1>
-            <a id="linkedin-link" href="https://www.linkedin.com/in/martin-mwangi-46523483/">LinkedIn</a>
-            <a id="github-link" href="https://github.com/martwebber">Github</a>
-            <a id="twitter-link" href="https://twitter.com/__mart">Twitter</a>
+    <div id="container" class="card">
+        <div id="header" class="card header-card">
+            <img src="./img/mart.jpg" alt="profile photograph" id="avatar-photo" title="" width="100" />
+            <h2>Martin Mwangi</h2><span>Software Engineering Student at Moringa School</span><br />
+            <a href="https://www.linkedin.com/in/martin-mwangi-46523483/"><img id="linkedin-link"
+                    src="/img/LinkedIn_logo_initials.png" alt="" width="30"></a>
+            <a href="https://github.com/martwebber"><img id="github-link" src="/img/GitHub-Mark.png" width="30"
+                    alt=""></a>
+            <a href="https://twitter.com/__mart"><img id="twitter-link" src="/img/Twitter-logo.svg.png" width="30"
+                    alt=""></a>
         </div>
-        <div id="about">
-            <p>I am a tech enthusiast looking to grow my software engineering skills at Moringa School. I am very curious about emerging technologies and I try to keep tabs on what's happening in the tech space and especially Cloud Computing.
+        <div id="about" class="card">
+            <h2>About Me</h2>
+            <p>I am a Computer Information Systems graduate looking to grow my software engineering skills at Moringa
+                School.</p>
         </div>
-        <div id="education">
+        <div id="education" class="card">
             <h2>Education Background & Training</h2>
             <ul>
                 <li>Software Engineering - Moringa School</li>
@@ -27,28 +34,32 @@
                 <li>BSc Computer Information Systems - Kenya Methodist University</li>
             </ul>
         </div>
-        <div id="experience">
+        <div id="experience" class="card">
             <h2>Work Experience</h2>
             <ul>
                 <li>Digital Engineering Operations Intern - Safaricom PLC</li>
             </ul>
         </div>
-        <div id="skills">
+        <div id="skills" class="card">
             <h2>Skills</h2>
             <ul>
-                <li>Programming experience with Python</li>
+                <li>Programming experience with Python, Javascript</li>
                 <li>CI/CD using GitHub Actions, Jenkins</li>
                 <li>Containerization using docker</li>
+                <li>Cloud Computing:AWS, GCP</li>
+                <li>Provisioning Infrastructure As Code using AWS CloudFormation</li>
             </ul>
         </div>
-        <div id="contacts">
+        <div id="contacts" class="card">
             <h2>Contacts</h2>
-            <p>You can reach out to me via Email: mwangi.martin24@gmail.com or send me a message on <a href="https://www.linkedin.com/in/martin-mwangi-46523483/">LinkedIn</a></p>
+            <p>You can reach out to me via Email: mwangi.martin24@gmail.com or send me a message on <a
+                    href="https://www.linkedin.com/in/martin-mwangi-46523483/">LinkedIn</a></p>
         </div>
         <div id="footer">
             <p>&copy; 2022</p>
         </div>
     </div>
-    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
