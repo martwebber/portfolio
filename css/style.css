@@ -1,27 +1,75 @@
-body #container{
+body {
+    background-color: grey
+}
+
+body #container {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 17px;
-    font-family:monospace;
-    font-weight:lighter;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
     line-height: 1.8;
-    }
-#container div{
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+#container div {
     margin-top: 10px;
     margin-bottom: 10px
 }
-img {
-    border-radius: 50%;
-}
-ul li{
+
+ul li {
     list-style: none;
 }
-h1, h2{
-    color:#128812;
+
+h1,
+h2 {
+    color: rgb(13, 166, 51);
 }
+
 #header a {
-    margin-left:3px;
-    margin-right:3px
+    margin-left: 3px;
+    margin-right: 3px
+}
+
+#avatar-photo {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+div#header a img {
+    margin-top: 10px;
+}
+
+.header-card {
+    background-color: aliceblue
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 14px;
+}
+
+#header div {
+    float: left;
+}
+
+p,
+ul {
+    padding: 10px;
+}
+
+h2 {
+
+    padding-top: 5px;
 }
